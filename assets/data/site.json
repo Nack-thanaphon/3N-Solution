@@ -1,0 +1,436 @@
+{
+  "site": {
+    "title": "3N Solution - Digital & Industrial Solutions",
+    "description": "Connecting factories, networks, and software into intelligent systems",
+    "logoText": "3N",
+    "brandName": "3N Solution",
+    "brandTagline": "Digital & Industrial Solutions"
+  },
+  "nav": {
+    "links": [
+      { "label": "Who We Are", "href": "#who-we-are" },
+      { "label": "Services", "href": "#what-we-do" },
+      { "label": "Approach", "href": "#approach" },
+      { "label": "Cases", "href": "#cases" },
+      { "label": "Team", "href": "#team" }
+    ],
+    "cta": { "label": "Contact Us", "href": "#contact" }
+  },
+  "presentation": {
+    "embedUrl": "https://www.canva.com/design/DAG5nwqjwaU/ZNA9vTRQj5cpcqNbZGFE6w/view?embed",
+    "title": "Company Presentation",
+    "subtitle": "Overview of our services and working approach"
+  },
+  "slider": {
+    "enabled": true,
+    "slides": [
+      {
+        "id": "1",
+        "image": "https://images.unsplash.com/photo-1563865436874-9aef32095fad3?w=1920&q=80",
+        "alt": "Smart Factory Network Infrastructure",
+        "title": "Smart Factory Network",
+        "description": "Stable and secure network infrastructure for smart factories"
+      },
+      {
+        "id": "2",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=80",
+        "alt": "IoT Machine Monitoring System",
+        "title": "IoT Machine Monitoring",
+        "description": "Real-time machine status tracking to reduce downtime and improve efficiency"
+      },
+      {
+        "id": "3",
+        "image": "https://images.unsplash.com/photo-1565514020126-85a3c334d1c8?w=1920&q=80",
+        "alt": "Industrial Automation PLC Integration",
+        "title": "Industrial Automation",
+        "description": "Automated control and PLC integration for production lines"
+      },
+      {
+        "id": "4",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&q=80",
+        "alt": "Factory Dashboard Data Platform",
+        "title": "Data Dashboard",
+        "description": "Real-time production data dashboard with analytics and reporting"
+      },
+      {
+        "id": "5",
+        "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920&q=80",
+        "alt": "3N Solution Team Expert Network Software Industrial",
+        "title": "Expert Engineering Team",
+        "description": "Professional engineering team from 3 disciplines ready to serve"
+      }
+    ]
+  },
+  "hero": {
+    "badge": "Free Phone Consultation",
+    "title": "Factory Problems? Software Not Understanding? Network Failures?",
+    "highlight": "Consult Today - Get Expert Advice Free",
+    "subtitle": "Many factory owners face the same problems - computer-controlled machines work intermittently, data isn't connected, and outsourced teams don't understand real work. We understand because we work in the industry.",
+    "primaryCta": { "label": "Call for Free Consultation", "href": "tel:+66XXXXXXXXXX" },
+    "secondaryCta": { "label": "View Our Services", "href": "#what-we-do" },
+    "stats": [
+      { "value": "50+", "label": "Completed Projects" },
+      { "value": "15+", "label": "Years Experience" },
+      { "value": "100%", "label": "Understand Real Work" }
+    ]
+  },
+  "painPoints": {
+    "title": "Common Problems Factories Face",
+    "lead": "If you're experiencing these problems, call us - Free consultation",
+    "points": [
+      {
+        "icon": "downtime",
+        "title": "Machines Frequently Stop Working",
+        "body": "Computer-controlled machine systems work intermittently, wasting time and reducing production efficiency"
+      },
+      {
+        "icon": "data",
+        "title": "Data Not Connected",
+        "body": "Data from machines, networks, and computer systems don't connect to each other, making reporting difficult and decision-making hard"
+      },
+      {
+        "icon": "outsourcing",
+        "title": "Outsourced Teams Don't Understand Real Work",
+        "body": "Some software companies don't understand factory work, so systems they build don't match real requirements"
+      },
+      {
+        "icon": "security",
+        "title": "Network Not Secure",
+        "body": "Factories connect to the internet but lack appropriate security systems, making them vulnerable to hacking"
+      },
+      {
+        "icon": "expensive",
+        "title": "Invested in Systems That Are Hard to Use",
+        "body": "Bought expensive software programs but staff can't use them, so systems aren't actually utilized"
+      },
+      {
+        "icon": "slow",
+        "title": "Problems Keep Recurring",
+        "body": "Problems keep happening - hire someone to fix them and you encounter the same old problems again"
+      }
+    ]
+  },
+  "whoWeAre": {
+    "title": "Who We Are",
+    "lead": "We are a team of professional engineers specializing in integrated industrial system design and development. With deep knowledge in three disciplines, we can solve complex problems and create sustainable solutions.",
+    "cards": [
+      {
+        "icon": "network",
+        "theme": "primary",
+        "title": "Network Engineering",
+        "body": "Design and maintain stable, secure, and scalable industrial network infrastructure supporting real-time device communication"
+      },
+      {
+        "icon": "software",
+        "theme": "violet",
+        "title": "Software Engineering",
+        "body": "Develop secure, efficient, and user-friendly Web, Mobile, and Cloud applications to effectively control and analyze industrial data"
+      },
+      {
+        "icon": "industrial",
+        "theme": "secondary",
+        "title": "Industrial Engineering",
+        "body": "Install, maintain, and upgrade machine, PLC, and industrial equipment systems for maximum efficiency and reduced operational costs"
+      }
+    ]
+  },
+  "services": {
+    "title": "What We Do",
+    "lead": "Our main services cover complete industrial system design, development, installation, and maintenance",
+    "items": [
+      {
+        "icon": "monitoring",
+        "title": "IoT & Machine Monitoring",
+        "body": "Install sensors and IoT systems to track machine status in real-time, reducing downtime and improving efficiency"
+      },
+      {
+        "icon": "dashboard",
+        "title": "Factory Dashboard & Data Platform",
+        "body": "Create dashboards showing real-time production data with analytics and reporting for decision-making"
+      },
+      {
+        "icon": "plc",
+        "title": "SCADA-Lite / PLC Integration",
+        "body": "Develop lightweight control systems and integrate PLCs to make machine systems work automatically and safely"
+      },
+      {
+        "icon": "dev",
+        "title": "Software Development",
+        "body": "Develop Web, Mobile, and Cloud applications tailored to your business needs"
+      },
+      {
+        "icon": "infra",
+        "title": "Network & Infrastructure",
+        "body": "Design and maintain secure, stable, and scalable network infrastructure that can support business growth"
+      },
+      {
+        "icon": "maintenance",
+        "title": "Machine Installation & Maintenance",
+        "body": "Install, customize, and maintain machines and industrial equipment for optimal performance"
+      }
+    ]
+  },
+  "approach": {
+    "title": "Our Approach",
+    "lead": "We use systematic and effective methods to solve industrial problems",
+    "steps": [
+      {
+        "title": "Assess & Plan",
+        "body": "Analyze your requirements and environment, plan appropriate solutions"
+      },
+      {
+        "title": "Design & Develop",
+        "body": "Design and develop systems according to requirements, test thoroughly"
+      },
+      {
+        "title": "Deploy & Train",
+        "body": "Install systems and train your team for effective use"
+      },
+      {
+        "title": "Support & Optimize",
+        "body": "Provide continuous support and improve systems according to needs"
+      }
+    ],
+    "benefitsTitle": "Benefits of Working With Us",
+    "benefits": [
+      { "title": "15+ Years Experience", "body": "Team with long experience in various industries" },
+      { "title": "Integrated Solutions", "body": "Covering Network, Software, and Industrial Engineering" },
+      { "title": "Long-term Support", "body": "Providing continuous support and maintenance" }
+    ]
+  },
+  "cases": {
+    "title": "Case Examples",
+    "lead": "Examples of our successful projects (client names not disclosed)",
+    "items": [
+      {
+        "theme": "primary",
+        "icon": "monitoring",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+        "title": "IoT Monitoring System",
+        "body": "Real-time machine status tracking system for heavy industrial production factories",
+        "bullets": ["Reduced downtime 40%", "Increased efficiency 25%", "Saved costs 30%"]
+      },
+      {
+        "theme": "violet",
+        "icon": "dashboard",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+        "title": "Factory Dashboard Platform",
+        "body": "Real-time production data dashboard with analytics and reporting",
+        "bullets": ["Live production tracking", "Automated reporting", "Faster decision-making"]
+      },
+      {
+        "theme": "secondary",
+        "icon": "plc",
+        "image": "https://images.unsplash.com/photo-1565514020126-85a3c334d1c8?w=800&q=80",
+        "title": "PLC Integration & Automation",
+        "body": "Automated control system and PLC integration for production lines",
+        "bullets": ["100% automated control", "Reduced human error", "Increased safety"]
+      },
+      {
+        "theme": "primary",
+        "icon": "dev",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+        "title": "Custom Software Solution",
+        "body": "Web and Mobile applications customized for production management",
+        "bullets": ["Easy to use", "Access from anywhere", "Secure and stable"]
+      },
+      {
+        "theme": "violet",
+        "icon": "infra",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+        "title": "Network Infrastructure",
+        "body": "Design and installation of secure and stable network infrastructure for factories",
+        "bullets": ["High speed", "Secure and encrypted", "99.9% stability"]
+      },
+      {
+        "theme": "secondary",
+        "icon": "maintenance",
+        "image": "https://images.unsplash.com/photo-1563865436874-9aef32095fad3?w=800&q=80",
+        "title": "Maintenance & Support",
+        "body": "Long-term maintenance and support services for industrial systems",
+        "bullets": ["Regular inspections", "Emergency repairs", "Reduced operational costs"]
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "lead": "What clients feel: Professional team, experienced, and understands real work",
+    "reviews": [
+      {
+        "name": "Production Manager - Automotive Parts Factory",
+        "role": "Automotive Parts Factory",
+        "content": "The team really understands real factory work, not just software. They understand how machines work and I can talk to them easily. Highly recommend.",
+        "rating": 5
+      },
+      {
+        "name": "Factory Owner - Plastic Manufacturing",
+        "role": "Plastic Factory",
+        "content": "Previously had data connection problems. The team came and helped integrate systems on time, and trained my staff until they could use it well.",
+        "rating": 5
+      },
+      {
+        "name": "Technology Director",
+        "role": "Frozen Food Factory",
+        "content": "Their engineers have knowledge in Network, Software, and Industrial. This makes our project discussions smooth without difficult explanations.",
+        "rating": 5
+      },
+      {
+        "name": "Production Control Manager",
+        "role": "Furniture Factory",
+        "content": "The IoT Monitoring system they built really reduced our downtime. Post-sale support is also great - they come help quickly when we call.",
+        "rating": 5
+      },
+      {
+        "name": "SME Business Owner",
+        "role": "Small Factory",
+        "content": "Talked about problems we face, the team listened well and gave recommendations that fit our budget. They didn't sell expensive systems.",
+        "rating": 5
+      }
+    ]
+  },
+  "team": {
+    "title": "Our Team",
+    "lead": "Professional engineering team with expertise and long experience in three disciplines",
+    "members": [
+      {
+        "role": "Network Lead",
+        "subtitle": "Network Engineer",
+        "theme": "primary",
+        "icon": "network",
+        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80",
+        "body": "Network team lead with experience designing and maintaining large-scale industrial network infrastructure. Expertise in Industrial IoT, Cybersecurity, and Network Optimization"
+      },
+      {
+        "role": "Software Lead",
+        "subtitle": "Software Engineer",
+        "theme": "violet",
+        "icon": "software",
+        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
+        "body": "Software team lead specializing in Web, Mobile, and Cloud application development for industry. Expertise in Full-stack Development, Database Design, and Cloud Architecture"
+      },
+      {
+        "role": "Industrial Lead",
+        "subtitle": "Industrial Engineer",
+        "theme": "secondary",
+        "icon": "industrial",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+        "body": "Industrial team lead with experience installing, customizing, and maintaining machine, PLC, and industrial equipment. Expertise in Automation, SCADA Systems, and Preventive Maintenance"
+      }
+    ],
+    "stats": [
+      { "value": "50+", "label": "Completed Projects" },
+      { "value": "15+", "label": "Years Experience" },
+      { "value": "100%", "label": "Client Satisfaction" },
+      { "value": "24/7", "label": "Support" }
+    ]
+  },
+  "articles": {
+    "title": "Articles & Knowledge",
+    "lead": "Sharing experiences and knowledge from real work",
+    "items": [
+      {
+        "title": "Why Hired Software Company But System Not Usable?",
+        "excerpt": "Problems many factories face - good software but doesn't understand real work, making systems unused. What's the way out?",
+        "category": "Consultation",
+        "readTime": "5 min",
+        "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+      },
+      {
+        "title": "5 Signs Your Factory Network Needs Upgrading",
+        "excerpt": "Network slow, machine control intermittent, data not connected. Is it becoming a problem?",
+        "category": "Network",
+        "readTime": "7 min",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80"
+      },
+      {
+        "title": "How IoT Monitoring Reduces Costs",
+        "excerpt": "Install sensors and machine status tracking systems, reduce downtime and increase production efficiency",
+        "category": "IoT",
+        "readTime": "6 min",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+      },
+      {
+        "title": "How to Choose Industrial Tech Company That Understands Real Work",
+        "excerpt": "Tips for choosing project contractors - look at experience, team, and understanding of work",
+        "category": "Recommendation",
+        "readTime": "8 min",
+        "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80"
+      },
+      {
+        "title": "Case Study: Reduced Downtime 40% With IoT Monitoring System",
+        "excerpt": "Real project that enabled heavy industrial production factories to significantly reduce downtime",
+        "category": "Case Study",
+        "readTime": "10 min",
+        "image": "https://images.unsplash.com/photo-1565514020126-85a3c334d1c8?w=800&q=80"
+      },
+      {
+        "title": "How to Talk to Experts to Solve Problems Correctly",
+        "excerpt": "What to prepare before calling, what to ask, and how to get answers that match your problems",
+        "category": "Consultation",
+        "readTime": "5 min",
+        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Start Your Project",
+    "lead": "Contact us today to discuss how we can help your business grow",
+    "info": [
+      { "icon": "email", "label": "Email", "value": "info@3nengineering.com" },
+      { "icon": "phone", "label": "Phone", "value": "+66 (0) XX-XXX-XXXX" },
+      { "icon": "address", "label": "Address", "value": "Bangkok, Thailand" },
+      { "icon": "hours", "label": "Business Hours", "value": "Monday - Friday: 9:00 AM - 6:00 PM\nSaturday - Sunday: Closed" }
+    ],
+    "form": {
+      "labels": {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Your name",
+        "email": "Your email",
+        "subject": "Message subject",
+        "message": "Tell us about your project"
+      },
+      "submit": "Send Message",
+      "success": "Thank you for contacting us! We will reply shortly"
+    },
+    "socialTitle": "Follow us on social media",
+    "social": [
+      { "type": "facebook", "href": "#" },
+      { "type": "x", "href": "#" },
+      { "type": "linkedin", "href": "#" }
+    ]
+  },
+  "footer": {
+    "about": "Professional engineering team specializing in integrated industrial system design and development",
+    "servicesTitle": "Services",
+    "services": [
+      { "label": "IoT & Monitoring", "href": "#what-we-do" },
+      { "label": "Factory Dashboard", "href": "#what-we-do" },
+      { "label": "SCADA Integration", "href": "#what-we-do" },
+      { "label": "Software Development", "href": "#what-we-do" }
+    ],
+    "companyTitle": "Company",
+    "company": [
+      { "label": "About Us", "href": "#who-we-are" },
+      { "label": "Our Team", "href": "#team" },
+      { "label": "Case Studies", "href": "#cases" },
+      { "label": "Contact Us", "href": "#contact" }
+    ],
+    "legalTitle": "Other",
+    "legal": [
+      { "label": "Privacy Policy", "href": "#" },
+      { "label": "Terms of Service", "href": "#" },
+      { "label": "Cookie Policy", "href": "#" }
+    ],
+    "copyright": "© 2026 3N Solution. All rights reserved.",
+    "social": [
+      { "type": "facebook", "href": "#" },
+      { "type": "x", "href": "#" },
+      { "type": "linkedin", "href": "#" }
+    ]
+  }
+}

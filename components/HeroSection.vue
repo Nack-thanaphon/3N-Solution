@@ -1,46 +1,39 @@
 <template>
-  <section class="relative py-20 md:py-32 bg-gradient-to-br from-blue-50 via-white to-teal-50 overflow-hidden">
-    <!-- Background decoration -->
-    <div class="absolute top-0 right-0 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 -mr-48 -mt-48"></div>
-    <div class="absolute bottom-0 left-0 w-96 h-96 bg-teal-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 -ml-48 -mb-48"></div>
+  <section class="relative py-20 md:py-28 bg-gradient-to-br from-gray-50 via-white to-gray-50 overflow-hidden">
+    <div class="absolute inset-0 pointer-events-none">
+      <div class="absolute -top-24 -left-24 w-80 h-80 bg-primary/10 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-24 -right-24 w-80 h-80 bg-secondary/10 rounded-full blur-3xl"></div>
+    </div>
 
-    <div class="section-container relative z-10">
-      <div class="max-w-3xl mx-auto text-center">
-        <div class="inline-block mb-6 px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
-          🚀 Engineering Excellence
+    <div class="section-container relative">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="inline-flex items-center gap-2 mb-6 px-4 py-2 bg-white/80 border border-gray-200 rounded-full text-sm font-semibold text-gray-700">
+          <span class="w-2 h-2 rounded-full bg-secondary"></span>
+          <span>{{ content.hero.badge }}</span>
         </div>
 
-        <h1 class="heading-lg mb-6">
-          เชื่อมโรงงาน–เครือข่าย–ซอฟต์แวร์<br />
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-600">ให้กลายเป็นระบบอัจฉริยะ</span>
+        <h1 class="heading-lg mb-6 leading-snug">
+          {{ content.hero.title }}<br />
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">{{ content.hero.highlight }}</span>
         </h1>
 
-        <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-          ทีมวิศวกร 3 สายงาน (Network, Software, Industrial Engineering) ที่มีประสบการณ์ในการออกแบบและพัฒนาระบบอุตสาหกรรมที่ชาญฉลาด
+        <p class="text-lg md:text-xl text-muted mb-10 leading-relaxed">
+          {{ content.hero.subtitle }}
         </p>
 
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#contact" class="btn-primary">
-            เริ่มต้นโครงการ
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+          <a :href="content.hero.primaryCta.href" class="btn-primary">
+            {{ content.hero.primaryCta.label }}
           </a>
-          <a href="#what-we-do" class="btn-outline">
-            ดูบริการของเรา
+          <a :href="content.hero.secondaryCta.href" class="btn-outline">
+            {{ content.hero.secondaryCta.label }}
           </a>
         </div>
 
-        <!-- Stats -->
-        <div class="grid grid-cols-3 gap-4 mt-16 pt-16 border-t border-gray-200">
-          <div>
-            <div class="text-3xl font-bold text-blue-600">50+</div>
-            <p class="text-gray-600 text-sm mt-2">โครงการสำเร็จ</p>
-          </div>
-          <div>
-            <div class="text-3xl font-bold text-teal-600">15+</div>
-            <p class="text-gray-600 text-sm mt-2">ปีประสบการณ์</p>
-          </div>
-          <div>
-            <div class="text-3xl font-bold text-blue-600">3</div>
-            <p class="text-gray-600 text-sm mt-2">สายงานวิศวกร</p>
+        <div class="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div v-for="stat in content.hero.stats" :key="stat.label" class="card px-6 py-7">
+            <div class="text-3xl font-bold text-gray-900">{{ stat.value }}</div>
+            <p class="text-gray-600 text-sm mt-2">{{ stat.label }}</p>
           </div>
         </div>
       </div>
@@ -49,4 +42,5 @@
 </template>
 
 <script setup lang="ts">
+import content from '~/assets/data/site.json'
 </script>
